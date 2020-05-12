@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { ThirdComponent } from './third/third.component';
+import { AdDirective } from './ad.directive';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, FirstComponent, SecondComponent, ThirdComponent],
+  declarations: [AppComponent, HelloComponent, FirstComponent, SecondComponent, ThirdComponent, AdDirective],
   bootstrap: [AppComponent],
   entryComponents: [
     FirstComponent,
